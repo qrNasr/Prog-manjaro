@@ -1,0 +1,58 @@
+Git Commands
+
+Git is a popular distributed version control system that allows developers to track changes in their codebase and collaborate with others. Here are some commonly used Git commands:
+
+    git config: This command is used to configure the author name and email address to be associated with the commits. It can be used as follows:
+
+git config --global user.name [name]
+git config --global user.email [email address]
+
+git init: This command initializes a new Git repository in the current directory. It creates a hidden .git directory that stores all the necessary files for version control.
+
+git init
+
+git clone: This command is used to create a local copy of a remote repository. It downloads the entire repository, including all branches and commit history.
+
+git clone [repository URL]
+
+git add: This command adds files to the staging area, preparing them to be committed. It can be used to add specific files or all files in the current directory.
+
+git add [file]
+git add .
+
+git commit: This command creates a new commit with the changes in the staging area. It is accompanied by a commit message that describes the changes made.
+
+git commit -m "Commit message"
+
+git diff: This command shows the differences between the current state of the code and the previous commit. It can be used to see the changes made to specific files or the entire codebase.
+
+git diff [file]
+git diff
+
+git reset: This command allows you to unstage changes or move the HEAD pointer to a previous commit. It can be used to undo commits or reset the codebase to a specific state.
+
+git reset [commit]
+
+git status: This command displays the current state of the repository. It shows which files are modified, staged, or untracked.
+
+git status
+
+git log: This command shows the commit history of the repository. It displays the author, date, and commit message for each commit.
+
+git log
+
+git branch: This command is used to manage branches in Git. It can be used to create, delete, or list branches.
+
+git branch [branch name]
+git branch -d [branch name]
+git branch
+
+These are just a few examples of commonly used Git commands. Git offers a wide range of commands and functionalities to support version control and collaboration. It's recommended to refer to official documentation or tutorials for a more comprehensive understanding of Git commands and their usage.
+
+Conclusion
+
+Steps
+git branch -m prog-manjaro  
+git config --global user.email    
+git init   
+git branch -m prog-manjaro  
